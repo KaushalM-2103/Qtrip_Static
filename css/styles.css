@@ -88,6 +88,8 @@ footer {
     url("../assets/hero.jpg");
   background-position: center;
   background-size: cover;
+  height: 50vh;
+
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
   /* 2. Position and center the image to scale nicely on all screens. */
@@ -119,8 +121,11 @@ footer {
   position: relative;
   height: 19.5rem;
   overflow: hidden;
-  border-radius: 7px ;
+  border-radius: 50px;
   overflow: hidden;
+  display: flex;
+  flex-direction:column ;
+  justify-content: flex-end;
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
